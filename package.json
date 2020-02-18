@@ -1,5 +1,7 @@
 {
   "name": "portfolio",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "hubot-heroku-keepalive": "^1.0.3"
+  }
 }

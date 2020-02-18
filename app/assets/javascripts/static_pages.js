@@ -1,12 +1,15 @@
-$(function() {
-  //画像にマウスを乗せたら発動
-  $('#mirai').hover(function() {
-    //画像のsrc属性が別画像のパスに切り替わる
-    $(this).animate({
-            'marginTop': '50px'
-  },1000);
-  }, function() {
-    $(this).animate({'marginTop': '100px'
-  },500);
+$(function(){
+	$('.mirai').hover(function(){
+		$(this).animate({'top':'200px','left':'200px'},2000);
+	});
+});
+$(function(){
+$('.slider').slick({
+    autoplay:true,
+    autoplaySpeed:5000,
+    dots:true,
+    arrows: true,
+ 　　prevArrow:'<div class="prev">⬅︎</div>',
+ 　　nextArrow:'<div class="next">➡︎</div>'
 });
 });
