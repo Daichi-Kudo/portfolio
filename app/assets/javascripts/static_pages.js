@@ -1,6 +1,6 @@
 $(function(){
 	$('.mirai').hover(function(){
-		$(this).animate({'top':'200px','left':'200px'},2000);
+		$(this).fadeOut('fast');
 	});
 });
 $(function(){
@@ -9,7 +9,7 @@ $('.slider').slick({
     autoplaySpeed:5000,
     dots:true,
     arrows: true,
- 　　prevArrow:'<div class="prev">⬅︎</div>',
- 　　nextArrow:'<div class="next">➡︎</div>'
+ 　 prevArrow:'<div class="prev">&#8810;</div>',
+ 　 nextArrow:'<div class="next">&#8811;</div>'
 });
 });
