@@ -1,1 +1,1 @@
-require Rails.root.join(“app/models/contact.rb”)
+require Rails.root.join("app/models/contact.rb")
