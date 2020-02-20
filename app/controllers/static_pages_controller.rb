@@ -22,4 +22,10 @@ class StaticPagesController < ApplicationController
 
   def contact
   end
+
+  private
+
+  def contact_params
+    params.require(:contact).permit(:email, :message)
+  end
 end
