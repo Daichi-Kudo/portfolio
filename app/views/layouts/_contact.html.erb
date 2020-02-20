@@ -1,0 +1,27 @@
+<div class="fadein">
+<%= form_for @contact, url: {action: "create"} do |f| %>
+<h1>Contact</h1>
+  <div class="form-group">
+    <%= f.label :name, 'お名前' %>
+    <%= f.text_field :name, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= f.label :email, '返信先メールアドレス' %>
+    <%= f.text_field :email, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= f.label :Organisation, '所属機関' %>
+    <%= f.text_field :Organisation, class: 'form-control' %>
+  </div>
+
+ <div class="form-group">
+   <%= f.label :message, 'お問い合わせ内容' %>
+   <%= f.text_area :message, size: '10x10', class: 'form-control' %>
+ </div>
+
+  <%= f.submit '送信' %>
+
+<% end %>
+</div>
