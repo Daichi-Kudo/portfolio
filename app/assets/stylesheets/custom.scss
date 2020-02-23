@@ -118,17 +118,16 @@ header{
   float: right;
   li{
     font-size: 1.0em;
-    float: right;
   }
 }
 
-.navbar-toggle:not(.active):hover span:nth-of-type(2) {
+.navbar-toggle:not(.active):hover div:nth-of-type(2) {
   width: 50%;
 }
-.navbar-toggle:not(.active):hover span:nth-of-type(3) {
+.navbar-toggle:not(.active):hover div:nth-of-type(3) {
   width: 30%;
 }
-.navbar-toggle:not(.active):hover span:nth-of-type(4) {
+.navbar-toggle:not(.active):hover div:nth-of-type(4) {
   width: 10%;
 }
 
