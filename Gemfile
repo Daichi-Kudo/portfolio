@@ -16,7 +16,7 @@ gem 'pg', groups: %w(production), require: false
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
-gem 'bootstrap-sass', '3.3.7'
+gem 'bootstrap-sass', '3.4.1'
 gem 'rails_12factor'
 
 # Use Uglifier as compressor for JavaScript assets
