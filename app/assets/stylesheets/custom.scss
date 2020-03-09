@@ -29,7 +29,7 @@ $gray-medium-light: #eaeaea;
 body {
   margin-top: 40px;
   padding-bottom: 100px;
-  background-color: rgb(255, 255, 230);
+  background: linear-gradient(to bottom, #dcdcdc, #6b8e23, #dcdcdc);
   font-family: 'Yu Mincho';
 }
 
@@ -114,11 +114,17 @@ p {
     text-decoration: none;
   }
 }
-header{
+header .colaspse .raw{
   float: right;
   li{
     font-size: 1.0em;
-  }
+  a{
+    color: black;
+  }}
+}
+
+#border{
+  border-bottom: none;
 }
 
 .navbar-toggle:not(.active):hover div:nth-of-type(2) {
