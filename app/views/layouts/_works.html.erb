@@ -1,61 +1,53 @@
 <% provide(:title, 'Works') %>
+<div class="container fadein">
 <h1>Works</h1>
-<div class="works_container">
-<h4>クローンサイト:&thinsp;</h4>
-<br><br>
-<ul class="side">
-<li>
-    <%= link_to image_tag("clone.png", alt: "クローンアプリ", class: "images", align: "left", hspace:"60"), "https://nameless-bastion-05855.herokuapp.com/"%>
-    <div class="indent">
-    <h5>言語：HTML5/SCSS/JavaScript/Ruby</h5>
-    <h5>バージョン管理：bitbucket</h5>
-    <h5>ライブラリ：CarrierWave/Gravatar</h5>
-    <h5>フレームワーク：RubyonRails5/bootstrap</h5>
-    <h5>IDE：AWS Cloud9</h5>
-    <h5>ホスティング：Heroku<h5>
-</div></li>
-</ul>
-<br><br>
-<h4>WEB招待状(製作中):&thinsp;</h4>
-<br><br>
-<ul class="side">
-<li>
-    <%= link_to image_tag("akis-wedding.JPG", alt: "WEBinv", class: "images", align: "left", hspace:"60"), "https://akis-wedding.herokuapp.com/"%>
-    <div class="indent">
-    <h5>言語：HTML5/SCSS/JavaScript/Ruby</h5>
-    <h5>バージョン管理：bitbucket</h5>
-    <h5>ライブラリ：jQuery/Ajax</h5>
-    <h5>フレームワーク：RubyonRails5/bootstrap</h5>
-    <h5>IDE：AWS Cloud9</h5>
-    <h5>ホスティング：Heroku<h5>
-</div></li>
-<br><br><br>
-<h4>ブログ:&emsp;&thinsp;&thinsp;</h4>
-<br><br>
-<ul class="side">
-<li>
-<%= link_to image_tag("blog.png", alt: "blog", class: "images", align: "left", hspace:"60"), "https://nk-blog.net"%>
-<div class="indent">
-    <h5>言語：HTML5/SCSS</h5>
-    <h5>CMS：WordPress</h5>
-    <h5>サーバー：レンタルサーバー</h5>
+<div class="works_container row">
+    <div class="work_box side center col-xs-12 col-md-6">
+        <h4>クローンサイト</h4>
+        <%= link_to image_tag("clone.png", alt: "クローンアプリ", class: "images"), "https://nameless-bastion-05855.herokuapp.com/"%>
+        <div>
+            <h5>言語：HTML5/SCSS/JavaScript/Ruby</h5>
+            <h5>バージョン管理：bitbucket</h5>
+            <h5>ライブラリ：CarrierWave/Gravatar</h5>
+            <h5>フレームワーク：RubyonRails5/bootstrap</h5>
+            <h5>IDE：AWS Cloud9</h5>
+            <h5>ホスティング：Heroku<h5>
+        </div>
+    </div>
+    <div class="work_box side center col-xs-12 col-md-6">
+        <h4>WEB招待状(製作中)</h4>
+        <%= link_to image_tag("akis-wedding.JPG", alt: "WEBinv", class: "images"), "https://akis-wedding.herokuapp.com/"%>
+        <div>
+            <h5>言語：HTML5/SCSS/JavaScript/Ruby</h5>
+            <h5>バージョン管理：bitbucket</h5>
+            <h5>ライブラリ：jQuery/Ajax</h5>
+            <h5>フレームワーク：RubyonRails5/bootstrap</h5>
+            <h5>IDE：AWS Cloud9</h5>
+            <h5>ホスティング：Heroku<h5>
+        </div>
+    </div>
 </div>
-</li>
-</ul>
-<br><br><br><br><br><br>
-<h4>ポートフォリオ:</h4>
-<br><br>
-<ul class="side">
-<li>
-<%= link_to image_tag("home.png", alt: "クローンアプリ", class: "images", align: "left", hspace:"60"), "/"%>
-<div class="indent">
-    <h5>言語：HTML5/SCSS/JavaScript/Ruby</h>
-    <h5>バージョン管理：bitbucket</h5>
-    <h5>ライブラリ：jQuery</h5>
-    <h5>フレームワーク：RubyonRails5/bootstrap</h5>
-    <h5>IDE：AWS Cloud9</h5>
-    <h5>ホスティング：Heroku<h5>
+<div class="row">
+    <div class="work_box side center col-xs-12 col-md-6">
+        <h4>ブログ</h4>
+        <%= link_to image_tag("blog.png", alt: "blog", class: "images"), "https://nk-blog.net"%>
+        <div>
+            <h5>言語：HTML5/SCSS</h5>
+            <h5>CMS：WordPress</h5>
+            <h5>サーバー：レンタルサーバー</h5>
+        </div>
+    </div>
+    <div class="work_box side center col-xs-12 col-md-6">
+        <h4>ポートフォリオ:</h4>
+        <%= link_to image_tag("home.png", alt: "クローンアプリ", class: "images"), "/"%>
+        <div>
+            <h5>言語：HTML5/SCSS/JavaScript/Ruby</h>
+            <h5>バージョン管理：bitbucket</h5>
+            <h5>ライブラリ：jQuery</h5>
+            <h5>フレームワーク：RubyonRails5/bootstrap</h5>
+            <h5>IDE：AWS Cloud9</h5>
+            <h5>ホスティング：Heroku<h5>
+        </div>
+    </div>
 </div>
-</li>
-</ul>
 </div>

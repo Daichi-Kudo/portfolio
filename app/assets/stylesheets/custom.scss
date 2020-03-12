@@ -12,7 +12,11 @@ $gray-medium-light: #eaeaea;
 }
 /* universal */
 .container{
-  padding-top: 150px;
+  padding-top: 30px;
+}
+
+.top-indent{
+  margin-top: 50px;
 }
 
 .fadein {
@@ -95,9 +99,10 @@ p {
     height: 50px;
 }
 
-.indent{
-  margin-left: 40px;
+.text_boxes{
+  margin-top: 20px;
 }
+
 /* header */
 #logo {
   float: left;
@@ -206,8 +211,8 @@ html, body {
   height: 160px;
 }
 
-.works_container{
-  margin-left: 60px;
+.work_box{
+  margin-bottom: 40px;
 }
 
 /* URL fading*/
